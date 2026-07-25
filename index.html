@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="es-GT">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Mi Primera Pagina</title>
+</head>
+
+<body style="background-color: lightgrey;">
+
+  <header style="text-align: center;
+    background-image:url('img/carreras-umg.jpg');
+    background-size:cover;
+    padding:120px 16px;">
+    <div style="display:inline-block; background-color: black; opacity: 0.7; padding:10px 45px;">
+      <h1 style="color: white;">Universidad Mariano Gálvez de Guatemala</h1>
+      <h2 style="color: white;">Centro Universitario de Amatitlán</h2>
+      <h3 style="color: white;">Ingeniería en Sistemas de Información</h3>
+      <h3 style="color: white;">Curso: Desarrollo Web</h3>
+    </div>
+  </header>
+
+  <nav style="color: white; background-color: black; height: 50px; display: flex; align-items: center;">
+    <a href="#estudiante" style="color: white; padding: 8px 16px; text-decoration: none;">Estudiante</a>
+    <a href="#sobre-mi" style="color: white; padding: 8px 16px; text-decoration: none;">Sobre mí</a>
+    <a href="#tags-aprendidos" style="color: white; padding: 8px 16px; text-decoration: none;">Tags aprendidos</a>
+    <a href="#multimedia" style="color: white; padding: 8px 16px; text-decoration: none;">Multimedia</a>
+  </nav>
+
+  <div style="padding: 10px 20px;">
+
+    <section id="estudiante" style="background-color: white; padding: 5px 20px;">
+      <h2>Información del estudiante</h2>
+      <address>
+        Jonathan Emanuel Giron Raguay<br>
+        Carnet: 6590-XX-XXXXX<br>
+        Octavo Ciclo<br>
+      </address>
+      <br>
+    </section>
+
+    <hr>
+
+    <section id="sobre-mi" style="background-color: white; padding: 5px 20px;">
+      <h2>Sobre mí</h2>
+      <article>
+        <p>Soy estudiante de <b>Ingeniería en Sistemas de Información</b> en la
+          Universidad Mariano Gálvez de Guatemala, sede de Amatitlán.
+          Estoy iniciando en el curso de Desarrollo Web, aplicando lo aprendido a traves de W3Schools.</p>
+        <aside style="background-color: rgb(148, 226, 250); padding: 10px 20px; text-align: center;">
+          <p>Pagina creada como practica del curso.</p>
+        </aside>
+        <br>
+      </article>
+    </section>
+
+    <hr>
+
+    <section id="tags-aprendidos" style="background-color: white; padding: 5px 20px;">
+      <h2>Uso de TAGS aprendidos en W3Schools</h2>
+
+      <table style="width: 100%; border-collapse: collapse;">
+        <tr style="background-color: black; color: white;">
+          <th style="padding: 10px;">Tema aprendido</th>
+          <th style="padding: 10px;">Ejemplo</th>
+        </tr>
+
+        <tr>
+          <td style="padding: 5px;">Encabezados</td>
+          <td>
+            <p><code>
+              &lt;h1&gt; texto... &lt;/h1&gt;<br>
+              &lt;h2&gt; texto... &lt;/h2&gt;<br>
+              &lt;h3&gt; texto... &lt;/h3&gt;<br>
+              &lt;h4&gt; texto... &lt;/h4&gt;<br>
+              &lt;h5&gt; texto... &lt;/h5&gt;<br>
+              &lt;h6&gt; texto... &lt;/h6&gt;<br>
+              </code>
+            </p>
+          </td>
+        </tr>
+
+        <tr style="background-color: #f1f1f1;">
+          <td style="padding: 5px;">Formato de texto</td>
+          <td style="padding: 5px;">
+            <b>negrita</b>, <i>cursiva</i>, <mark>resaltado</mark>, <small>pequeño</small>, <del>tachado</del> y
+            <ins>subrayado</ins>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding: 5px;">Parrafos</td>
+          <td>
+            <p>
+              <b>Para insertar un parrafo:</b><br>
+              <code>&lt;p&gt; texto... &lt;/p&gt;</code><br><br>
+              <b>Para insertar un salto de línea:</b><br>
+              <code>&lt;p&gt; texto... &lt;/p&gt;&lt;br&gt;</code><br><br>
+              <b>Para insertar una línea horizontal después de un párrafo:</b><br>
+              <code>&lt;hr&gt;</code><br><br>
+              <b>Para insertar texto pre-formateado, respeta los saltos de línea:</b><br>
+              <code>&lt;pre&gt;<br>&nbsp;texto...<br>&nbsp;texto...<br>&lt;/pre&gt;</code><br><br>
+              <b>Para insertar texto con formato de código:</b><br>
+              <code>&lt;code&gt; texto... &lt;/code&gt;</code><br><br>
+              <b style="color: red;">Nota: </b> Generalmente se usa junto a <code>&lt;pre&gt;...&lt;/pre&gt;</code>:<br>
+              <code>&lt;pre&gt;&lt;code&gt; texto... &lt;/code&gt;&lt;/pre&gt;</code>
+            </p>
+          </td>
+        </tr>
+
+        <tr style="background-color: #f1f1f1;">
+          <td style="padding: 5px;">Uso de emojis</td>
+          <td>
+            <p>
+              <b>Los emojis son caracteres del alfabeto UTF-8:</b><br>
+              <code>&amp;#128512;</code><br>
+              <code>&amp;#9917;</code><br>
+              <code>&amp;#128187;</code><br><br>
+
+              <b>Ejemplo:</b><br>
+              &#128512; &#9917; &#128187;<br><br>
+
+              <b style="color: red;">Nota: </b> Debe incluirse en el encabezado la etiqueta
+              <code>&lt;meta charset="UTF-8"&gt;</code> para que el navegador reconozca e interprete los emojis.
+            </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding: 5px;">Enlaces e imagenes</td>
+          <td>
+            <p>
+              <b>Para crear un enlace:</b><br>
+              <code>&lt;a href="https://www.w3schools.com"&gt; Texto de referencia del enlace &lt;/a&gt;</code><br><br>
+
+              <b>Ejemplo:</b><br>
+              <a href="https://www.w3schools.com">Enlace a W3Schools</a><br><br>
+
+              <b>Para insertar una imagen:</b><br>
+              <code>&lt;img src="ruta y nombre del archivo" alt="Texto alternativo si la imagen no puede mostrarse" width="ancho" height="alto"&gt;</code><br><br>
+
+              <b>Ejemplo:</b><br><br>
+              <img src="img/logo-umg.webp" alt="Logo UMG" width="75" height="75"><br><br>
+            </p>
+          </td>
+        </tr>
+
+        <tr style="background-color: #f1f1f1;">
+          <td style="padding: 5px;">Citas</td>
+          <td style="padding: 5px;">
+            <p>
+              <b>Para insertar una cita larga:</b><br>
+              <code>&lt;blockquote&gt; texto... &lt;/blockquote&gt;</code><br><br>
+              <b>Para insertar una cita corta dentro de un párrafo,</b> agrega comillas automáticamente.<br>
+              <code>&lt;p&gt;&lt;q&gt; texto... &lt;/q&gt;&lt;/p&gt;</code><br><br>
+              <b>Para indicar el título de una obra (libro, película, canción, videojuego, etc.):</b><br>
+              <code>&lt;p&gt; texto... &lt;cite&gt; Titulo de una obra &lt;/cite&gt;&lt;/p&gt;</code><br>
+            </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding: 5px;">Informacion de contacto</td>
+          <td>
+            <p>
+              <b>Para agregar información de contacto, el texto se muestra en cursiva:</b><br>
+              <code>
+                &lt;address&gt;<br>
+                Nombre...<br>
+                Correo...<br>
+                Teléfono...<br>
+                &lt;/address&gt;
+              </code><br>
+            </p>
+          </td>
+        </tr>
+
+        <tr style="background-color: #f1f1f1;">
+          <td style="padding: 5px;">Tablas</td>
+          <td>
+            <pre><code>
+&lt;table&gt;                       &lt;- Tabla
+&lt;tr&gt;                          &lt;- Fila
+&lt;th&gt;Encabezado&lt;/th&gt;           &lt;- Encabezado de columna
+&lt;/tr&gt;
+&lt;tr&gt;                          &lt;- Fila
+&lt;td&gt;Celda&lt;/td&gt;                &lt;- Celda
+&lt;/tr&gt;
+&lt;/table&gt;
+            </code></pre>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding: 5px;">Div y diseño</td>
+          <td>
+            <p>
+              <b>Para crear un contenedor genérico, para agrupar contenido:</b><br>
+              <code>
+                &lt;div&gt;<br>
+                &nbsp;&nbsp;Contenido...<br>
+                &lt;/div&gt;
+              </code><br>
+            </p>
+          </td>
+        </tr>
+
+        <tr style="background-color: #f1f1f1;">
+          <td style="padding: 5px;">Lista desordenada</td>
+          <td>
+            <p>
+              <b>Para crear una lista con viñetas:</b><br>
+              <code>
+                &lt;ul&gt;<br>
+                &nbsp;&nbsp;&lt;li&gt;Elemento 1&lt;/li&gt;<br>
+                &nbsp;&nbsp;&lt;li&gt;Elemento 2&lt;/li&gt;<br>
+                &lt;/ul&gt;
+              </code><br>
+            </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding: 5px;">Lista ordenada</td>
+          <td>
+            <p>
+              <b>Para crear una lista con numeros:</b><br>
+              <code>
+                &lt;ol&gt;<br>
+                &nbsp;&nbsp;&lt;li&gt;Elemento 1&lt;/li&gt;<br>
+                &nbsp;&nbsp;&lt;li&gt;Elemento 2&lt;/li&gt;<br>
+                &lt;/ol&gt;
+              </code><br>
+            </p>
+          </td>
+        </tr>
+
+        <tr style="background-color: #f1f1f1;">
+          <td style="padding: 5px;">Lista de descripciones</td>
+          <td>
+            <p>
+              <b>Para crear una lista de términos y descripciones:</b><br>
+              <code>
+                &lt;dl&gt;<br>
+                &nbsp;&nbsp;&lt;dt&gt;Termino&lt;/dt&gt;<br>
+                &nbsp;&nbsp;&lt;dd&gt;Descripción&lt;/dd&gt;<br>
+                &lt;/dl&gt;
+              </code><br><br>
+
+              <b style="color: red;">Nota:</b>
+              <code>&lt;dt&gt;</code> representa el termino y
+              <code>&lt;dd&gt;</code> su descripción.
+            </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding: 5px;">Elementos Semanticos</td>
+          <td>
+            <p>
+              <b>Encabezado de la pagina:</b><br>
+              <code>&lt;header&gt;...&lt;/header&gt;</code><br><br>
+
+              <b>Barra de navegacion:</b><br>
+              <code>&lt;nav&gt;...&lt;/nav&gt;</code><br><br>
+
+              <b>Sección de contenido:</b><br>
+              <code>&lt;section&gt;...&lt;/section&gt;</code><br><br>
+
+              <b>Contenido independiente (articulo):</b><br>
+              <code>&lt;article&gt;...&lt;/article&gt;</code><br><br>
+
+              <b>Contenido complementario:</b><br>
+              <code>&lt;aside&gt;...&lt;/aside&gt;</code><br><br>
+
+              <b>Pie de pagina:</b><br>
+              <code>&lt;footer&gt;...&lt;/footer&gt;</code><br><br>
+
+              <b style="color:red;">Nota:</b>
+              Estas etiquetas se usan para organizar la estructura de la pagina, no cambian la apariencia del contenido.
+            </p>
+          </td>
+        </tr>
+
+      </table>
+    </section>
+
+    <hr>
+
+    <section id="multimedia" style="background-color: white; padding: 5px 20px;">
+      <h2>Multimedia</h2>
+      <table style="width: 100%; border-collapse: collapse;">
+        <tr>
+          <td><img src="img/moodle_1.jpg" alt="Moodle 2026" width="180" height="180"></td>
+          <td><img src="img/moodle_2.jpg" alt="Moodle 2026" width="180" height="180"></td>
+          <td><img src="img/moodle_3.jpg" alt="Moodle 2026" width="180" height="180"></td>
+          <td><img src="img/moodle_4.jpg" alt="Moodle 2026" width="180" height="180"></td>
+          <td><img src="img/moodle_5.jpg" alt="Moodle 2026" width="180" height="180"></td>
+        </tr>
+        <tr>
+          <td colspan="5" style="text-align:center;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/s9ssVYpu6KE?si=SbEQypXo9SIXqYBe"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NK9Et0k7F34?si=eKLcobCumD6Him1v"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+  </div>
+
+  <footer style="background-color: rgb(148, 226, 250); padding: 15px 0; text-align: center;">
+    <p>Gracias &copy; 2026</p>
+  </footer>
+
+</body>
+
+</html>
